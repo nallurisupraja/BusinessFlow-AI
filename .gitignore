@@ -1,0 +1,18 @@
+.env
+.venv/
+venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+frontend/dist/
+
+# Environment files and secrets
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Local development state
+.codebenders/
